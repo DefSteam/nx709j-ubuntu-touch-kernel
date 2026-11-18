@@ -4,9 +4,8 @@ This repository contains the Linux 5.10.66 ARM64 kernel source for the RedMagic 
 
 ## Device and Halium changes
 
-- Added `arch/arm64/configs/nx709j_defconfig`, captured from the working NX709J kernel and checked against a fresh build.
+- Added `arch/arm64/configs/nx709j_defconfig`, captured from the working NX709J kernel.
 - Extended `arch/arm64/configs/halium.config` with SPI memory and USB UVC support, UBSAN array-bounds settings, and the namespaces, virtual terminal, and file-handle options used by Halium userspace.
-- Kept generated kernel images and build output out of version control.
 
 ## Build
 
